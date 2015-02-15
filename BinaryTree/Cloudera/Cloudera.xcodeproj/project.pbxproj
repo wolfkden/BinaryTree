@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		790367581A8585C600C9E10A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790367571A8585C600C9E10A /* main.cpp */; };
+		792B80E31A89518400DCCD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 792B80E21A89518400DCCD17 /* main.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		790367751A86E87400C9E10A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 790367711A86E87300C9E10A /* BTree.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 790367671A86E87300C9E10A;
-			remoteInfo = BTree;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		790367521A8585C600C9E10A /* CopyFiles */ = {
+		792B80DD1A89518400DCCD17 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -33,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		790367541A8585C600C9E10A /* BinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		790367571A8585C600C9E10A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		790367711A86E87300C9E10A /* BTree.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BTree.xcodeproj; path = BTree/BTree.xcodeproj; sourceTree = "<group>"; };
+		792B80DF1A89518400DCCD17 /* Cloudera */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cloudera; sourceTree = BUILT_PRODUCTS_DIR; };
+		792B80E21A89518400DCCD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		790367511A8585C600C9E10A /* Frameworks */ = {
+		792B80DC1A89518400DCCD17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,119 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7903674B1A8585C600C9E10A = {
+		792B80D61A89518400DCCD17 = {
 			isa = PBXGroup;
 			children = (
-				790367561A8585C600C9E10A /* BinaryTree */,
-				790367551A8585C600C9E10A /* Products */,
+				792B80E11A89518400DCCD17 /* Cloudera */,
+				792B80E01A89518400DCCD17 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		790367551A8585C600C9E10A /* Products */ = {
+		792B80E01A89518400DCCD17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				790367541A8585C600C9E10A /* BinaryTree */,
+				792B80DF1A89518400DCCD17 /* Cloudera */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		790367561A8585C600C9E10A /* BinaryTree */ = {
+		792B80E11A89518400DCCD17 /* Cloudera */ = {
 			isa = PBXGroup;
 			children = (
-				790367711A86E87300C9E10A /* BTree.xcodeproj */,
-				790367571A8585C600C9E10A /* main.cpp */,
+				792B80E21A89518400DCCD17 /* main.cpp */,
 			);
-			path = BinaryTree;
-			sourceTree = "<group>";
-		};
-		790367721A86E87300C9E10A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				790367761A86E87400C9E10A /* BTree */,
-			);
-			name = Products;
+			path = Cloudera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		790367531A8585C600C9E10A /* BinaryTree */ = {
+		792B80DE1A89518400DCCD17 /* Cloudera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7903675B1A8585C600C9E10A /* Build configuration list for PBXNativeTarget "BinaryTree" */;
+			buildConfigurationList = 792B80E61A89518400DCCD17 /* Build configuration list for PBXNativeTarget "Cloudera" */;
 			buildPhases = (
-				790367501A8585C600C9E10A /* Sources */,
-				790367511A8585C600C9E10A /* Frameworks */,
-				790367521A8585C600C9E10A /* CopyFiles */,
+				792B80DB1A89518400DCCD17 /* Sources */,
+				792B80DC1A89518400DCCD17 /* Frameworks */,
+				792B80DD1A89518400DCCD17 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BinaryTree;
-			productName = BinaryTree;
-			productReference = 790367541A8585C600C9E10A /* BinaryTree */;
+			name = Cloudera;
+			productName = Cloudera;
+			productReference = 792B80DF1A89518400DCCD17 /* Cloudera */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7903674C1A8585C600C9E10A /* Project object */ = {
+		792B80D71A89518400DCCD17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Wolfgang Kraske";
 				TargetAttributes = {
-					790367531A8585C600C9E10A = {
+					792B80DE1A89518400DCCD17 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 7903674F1A8585C600C9E10A /* Build configuration list for PBXProject "BinaryTree" */;
+			buildConfigurationList = 792B80DA1A89518400DCCD17 /* Build configuration list for PBXProject "Cloudera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7903674B1A8585C600C9E10A;
-			productRefGroup = 790367551A8585C600C9E10A /* Products */;
+			mainGroup = 792B80D61A89518400DCCD17;
+			productRefGroup = 792B80E01A89518400DCCD17 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 790367721A86E87300C9E10A /* Products */;
-					ProjectRef = 790367711A86E87300C9E10A /* BTree.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				790367531A8585C600C9E10A /* BinaryTree */,
+				792B80DE1A89518400DCCD17 /* Cloudera */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		790367761A86E87400C9E10A /* BTree */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = BTree;
-			remoteRef = 790367751A86E87400C9E10A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		790367501A8585C600C9E10A /* Sources */ = {
+		792B80DB1A89518400DCCD17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790367581A8585C600C9E10A /* main.cpp in Sources */,
+				792B80E31A89518400DCCD17 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		790367591A8585C600C9E10A /* Debug */ = {
+		792B80E41A89518400DCCD17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		7903675A1A8585C600C9E10A /* Release */ = {
+		792B80E51A89518400DCCD17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,14 +199,14 @@
 			};
 			name = Release;
 		};
-		7903675C1A8585C600C9E10A /* Debug */ = {
+		792B80E71A89518400DCCD17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		7903675D1A8585C600C9E10A /* Release */ = {
+		792B80E81A89518400DCCD17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -252,25 +216,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7903674F1A8585C600C9E10A /* Build configuration list for PBXProject "BinaryTree" */ = {
+		792B80DA1A89518400DCCD17 /* Build configuration list for PBXProject "Cloudera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				790367591A8585C600C9E10A /* Debug */,
-				7903675A1A8585C600C9E10A /* Release */,
+				792B80E41A89518400DCCD17 /* Debug */,
+				792B80E51A89518400DCCD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7903675B1A8585C600C9E10A /* Build configuration list for PBXNativeTarget "BinaryTree" */ = {
+		792B80E61A89518400DCCD17 /* Build configuration list for PBXNativeTarget "Cloudera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7903675C1A8585C600C9E10A /* Debug */,
-				7903675D1A8585C600C9E10A /* Release */,
+				792B80E71A89518400DCCD17 /* Debug */,
+				792B80E81A89518400DCCD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7903674C1A8585C600C9E10A /* Project object */;
+	rootObject = 792B80D71A89518400DCCD17 /* Project object */;
 }
